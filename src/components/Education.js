@@ -108,6 +108,7 @@ class Education extends Component {
                 type="text"
                 value={school.name}
                 onChange={this.nameChange}
+                placeholder="University of Imagination"
               />
             </Form.Group>
             <Form.Group controlId="studyTitle">
@@ -116,6 +117,7 @@ class Education extends Component {
                 type="text"
                 value={school.study}
                 onChange={this.studyChange}
+                placeholder="PhD in Imagination"
               />
             </Form.Group>
             <Form.Group controlId="studyDate">
@@ -124,6 +126,7 @@ class Education extends Component {
                 type="text"
                 value={school.date}
                 onChange={this.dateChange}
+                placeholder="05/2020 - 12/2050"
               />
             </Form.Group>
             <Button variant="primary" type="submit">

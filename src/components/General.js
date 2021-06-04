@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Form, Button, Jumbotron, Row, Col } from 'react-bootstrap';
-import '../styles/General.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/General.css';
 
-export class General extends Component {
+class General extends Component {
   constructor() {
     super();
 

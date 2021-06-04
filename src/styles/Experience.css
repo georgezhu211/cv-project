@@ -1,3 +1,7 @@
 .experience-info {
   min-height: 400px;
 }
+
+::-webkit-input-placeholder {
+  font-style: italic;
+}

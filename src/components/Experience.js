@@ -130,6 +130,7 @@ class Experience extends Component {
                 type="text"
                 value={work.name}
                 onChange={this.nameChange}
+                placeholder="Google"
               />
             </Form.Group>
             <Form.Group controlId="workPosition">
@@ -138,6 +139,7 @@ class Experience extends Component {
                 type="text"
                 value={work.position}
                 onChange={this.positionChange}
+                placeholder="Janitor"
               />
             </Form.Group>
             <Form.Group controlId="workTasks">
@@ -146,6 +148,7 @@ class Experience extends Component {
                 type="text"
                 value={work.tasks}
                 onChange={this.tasksChange}
+                placeholder="Keep the place tidy"
               />
             </Form.Group>
             <Form.Group controlId="workDate">
@@ -154,6 +157,7 @@ class Experience extends Component {
                 type="text"
                 value={work.date}
                 onChange={this.dateChange}
+                placeholder="02/1999 - 03/1943"
               />
             </Form.Group>
             <Button variant="primary" type="submit">
